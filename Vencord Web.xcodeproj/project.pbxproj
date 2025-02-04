@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -29,20 +29,16 @@
 		331A4E612C1BA0A6008B4E0B /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A4E172C1BA0A6008B4E0B /* SafariWebExtensionHandler.swift */; };
 		331A4E952C1BA401008B4E0B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 331A4E942C1BA401008B4E0B /* Icon.png */; };
 		331A4E962C1BA401008B4E0B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 331A4E942C1BA401008B4E0B /* Icon.png */; };
-		333AE2EB2CE35134003F0FA7 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 333AE2E22CE35134003F0FA7 /* manifest.json */; };
-		333AE2EE2CE35134003F0FA7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 333AE2E12CE35134003F0FA7 /* icon.png */; };
-		333AE2F22CE35134003F0FA7 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 333AE2D22CE35134003F0FA7 /* content.js */; };
-		333AE2FB2CE35134003F0FA7 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 333AE2E22CE35134003F0FA7 /* manifest.json */; };
-		333AE2FE2CE35134003F0FA7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 333AE2E12CE35134003F0FA7 /* icon.png */; };
-		333AE3022CE35134003F0FA7 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 333AE2D22CE35134003F0FA7 /* content.js */; };
-		333AE30B2CE3513C003F0FA7 /* third-party in Resources */ = {isa = PBXBuildFile; fileRef = 333AE30A2CE35138003F0FA7 /* third-party */; };
-		333AE30C2CE3513C003F0FA7 /* third-party in Resources */ = {isa = PBXBuildFile; fileRef = 333AE30A2CE35138003F0FA7 /* third-party */; };
-		333AE30E2CE35142003F0FA7 /* dist in Resources */ = {isa = PBXBuildFile; fileRef = 333AE30D2CE3513E003F0FA7 /* dist */; };
-		333AE30F2CE35142003F0FA7 /* dist in Resources */ = {isa = PBXBuildFile; fileRef = 333AE30D2CE3513E003F0FA7 /* dist */; };
+		331E35C62D51B69500FCC1B8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 331E35BB2D51B69500FCC1B8 /* manifest.json */; };
+		331E35CA2D51B69500FCC1B8 /* modifyResponseHeaders.json in Resources */ = {isa = PBXBuildFile; fileRef = 331E35BC2D51B69500FCC1B8 /* modifyResponseHeaders.json */; };
+		331E35CC2D51B69500FCC1B8 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 331E35AC2D51B69500FCC1B8 /* content.js */; };
+		331E35D22D51B69500FCC1B8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 331E35BA2D51B69500FCC1B8 /* icon.png */; };
+		331E35D52D51B69500FCC1B8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 331E35BB2D51B69500FCC1B8 /* manifest.json */; };
+		331E35D92D51B69500FCC1B8 /* modifyResponseHeaders.json in Resources */ = {isa = PBXBuildFile; fileRef = 331E35BC2D51B69500FCC1B8 /* modifyResponseHeaders.json */; };
+		331E35DB2D51B69500FCC1B8 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 331E35AC2D51B69500FCC1B8 /* content.js */; };
+		331E35E12D51B69500FCC1B8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 331E35BA2D51B69500FCC1B8 /* icon.png */; };
 		33457EF12D516A3D00212C64 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33457EF02D516A3D00212C64 /* SafariExtensionHandler.swift */; };
 		33457EF22D516A3D00212C64 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33457EF02D516A3D00212C64 /* SafariExtensionHandler.swift */; };
-		33C2890F2D5088850028F358 /* modifyResponseHeaders.json in Resources */ = {isa = PBXBuildFile; fileRef = 33C2890E2D5088850028F358 /* modifyResponseHeaders.json */; };
-		33C289102D5088850028F358 /* modifyResponseHeaders.json in Resources */ = {isa = PBXBuildFile; fileRef = 33C2890E2D5088850028F358 /* modifyResponseHeaders.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,14 +106,17 @@
 		331A4E522C1BA0A6008B4E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		331A4E532C1BA0A6008B4E0B /* Vencord Web.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Vencord Web.entitlements"; sourceTree = "<group>"; };
 		331A4E942C1BA401008B4E0B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		333AE2D22CE35134003F0FA7 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = "../Vencord/dist/chromium-unpacked/content.js"; sourceTree = SOURCE_ROOT; };
-		333AE2E12CE35134003F0FA7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "../Vencord/dist/chromium-unpacked/icon.png"; sourceTree = SOURCE_ROOT; };
-		333AE2E22CE35134003F0FA7 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../Vencord/dist/chromium-unpacked/manifest.json"; sourceTree = SOURCE_ROOT; };
-		333AE30A2CE35138003F0FA7 /* third-party */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "third-party"; path = "../Vencord/dist/chromium-unpacked/third-party"; sourceTree = SOURCE_ROOT; };
-		333AE30D2CE3513E003F0FA7 /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dist; path = "../Vencord/dist/chromium-unpacked/dist"; sourceTree = SOURCE_ROOT; };
+		331E35AC2D51B69500FCC1B8 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = "/Users/samara/Documents/Repositories/Vencord/dist/chromium-unpacked/content.js"; sourceTree = "<absolute>"; };
+		331E35BA2D51B69500FCC1B8 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "/Users/samara/Documents/Repositories/Vencord/dist/chromium-unpacked/icon.png"; sourceTree = "<absolute>"; };
+		331E35BB2D51B69500FCC1B8 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "/Users/samara/Documents/Repositories/Vencord/dist/chromium-unpacked/manifest.json"; sourceTree = "<absolute>"; };
+		331E35BC2D51B69500FCC1B8 /* modifyResponseHeaders.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = modifyResponseHeaders.json; path = "/Users/samara/Documents/Repositories/Vencord/dist/chromium-unpacked/modifyResponseHeaders.json"; sourceTree = "<absolute>"; };
 		33457EF02D516A3D00212C64 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
-		33C2890E2D5088850028F358 /* modifyResponseHeaders.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = modifyResponseHeaders.json; path = "../Vencord/dist/chromium-unpacked/modifyResponseHeaders.json"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		331E35B92D51B69500FCC1B8 /* dist */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); name = dist; path = "/Users/samara/Documents/Repositories/Vencord/dist/chromium-unpacked/dist"; sourceTree = "<absolute>"; };
+		331E35C32D51B69500FCC1B8 /* third-party */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); name = "third-party"; path = "/Users/samara/Documents/Repositories/Vencord/dist/chromium-unpacked/third-party"; sourceTree = "<absolute>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		331A4E222C1BA0A6008B4E0B /* Frameworks */ = {
@@ -248,12 +247,12 @@
 		333AE2812CE34732003F0FA7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				33C2890E2D5088850028F358 /* modifyResponseHeaders.json */,
-				333AE2D22CE35134003F0FA7 /* content.js */,
-				333AE30D2CE3513E003F0FA7 /* dist */,
-				333AE2E12CE35134003F0FA7 /* icon.png */,
-				333AE2E22CE35134003F0FA7 /* manifest.json */,
-				333AE30A2CE35138003F0FA7 /* third-party */,
+				331E35AC2D51B69500FCC1B8 /* content.js */,
+				331E35B92D51B69500FCC1B8 /* dist */,
+				331E35BA2D51B69500FCC1B8 /* icon.png */,
+				331E35BB2D51B69500FCC1B8 /* manifest.json */,
+				331E35BC2D51B69500FCC1B8 /* modifyResponseHeaders.json */,
+				331E35C32D51B69500FCC1B8 /* third-party */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -311,6 +310,10 @@
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				331E35B92D51B69500FCC1B8 /* dist */,
+				331E35C32D51B69500FCC1B8 /* third-party */,
+			);
 			name = "Vencord Web Extension (iOS)";
 			productName = "Vencord Web Extension (iOS)";
 			productReference = 331A4E432C1BA0A6008B4E0B /* Vencord Web Extension.appex */;
@@ -327,6 +330,10 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				331E35B92D51B69500FCC1B8 /* dist */,
+				331E35C32D51B69500FCC1B8 /* third-party */,
 			);
 			name = "Vencord Web Extension (macOS)";
 			productName = "Vencord Web Extension (macOS)";
@@ -410,12 +417,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				333AE30E2CE35142003F0FA7 /* dist in Resources */,
-				333AE30B2CE3513C003F0FA7 /* third-party in Resources */,
-				333AE2EB2CE35134003F0FA7 /* manifest.json in Resources */,
-				333AE2EE2CE35134003F0FA7 /* icon.png in Resources */,
-				333AE2F22CE35134003F0FA7 /* content.js in Resources */,
-				33C2890F2D5088850028F358 /* modifyResponseHeaders.json in Resources */,
+				331E35D52D51B69500FCC1B8 /* manifest.json in Resources */,
+				331E35D92D51B69500FCC1B8 /* modifyResponseHeaders.json in Resources */,
+				331E35DB2D51B69500FCC1B8 /* content.js in Resources */,
+				331E35E12D51B69500FCC1B8 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,12 +428,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				333AE30F2CE35142003F0FA7 /* dist in Resources */,
-				333AE30C2CE3513C003F0FA7 /* third-party in Resources */,
-				333AE2FB2CE35134003F0FA7 /* manifest.json in Resources */,
-				333AE2FE2CE35134003F0FA7 /* icon.png in Resources */,
-				333AE3022CE35134003F0FA7 /* content.js in Resources */,
-				33C289102D5088850028F358 /* modifyResponseHeaders.json in Resources */,
+				331E35C62D51B69500FCC1B8 /* manifest.json in Resources */,
+				331E35CA2D51B69500FCC1B8 /* modifyResponseHeaders.json in Resources */,
+				331E35CC2D51B69500FCC1B8 /* content.js in Resources */,
+				331E35D22D51B69500FCC1B8 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
