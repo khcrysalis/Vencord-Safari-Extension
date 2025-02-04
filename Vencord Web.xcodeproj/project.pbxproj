@@ -1,0 +1,965 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		331A4E292C1BA0A6008B4E0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A4E282C1BA0A6008B4E0B /* AppDelegate.swift */; };
+		331A4E2B2C1BA0A6008B4E0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A4E2A2C1BA0A6008B4E0B /* SceneDelegate.swift */; };
+		331A4E2E2C1BA0A6008B4E0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331A4E2C2C1BA0A6008B4E0B /* LaunchScreen.storyboard */; };
+		331A4E312C1BA0A6008B4E0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331A4E2F2C1BA0A6008B4E0B /* Main.storyboard */; };
+		331A4E3A2C1BA0A6008B4E0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A4E392C1BA0A6008B4E0B /* AppDelegate.swift */; };
+		331A4E3D2C1BA0A6008B4E0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331A4E3B2C1BA0A6008B4E0B /* Main.storyboard */; };
+		331A4E442C1BA0A6008B4E0B /* Vencord Web Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 331A4E432C1BA0A6008B4E0B /* Vencord Web Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		331A4E4E2C1BA0A6008B4E0B /* Vencord Web Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 331A4E4D2C1BA0A6008B4E0B /* Vencord Web Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		331A4E542C1BA0A6008B4E0B /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 331A4E0F2C1BA0A4008B4E0B /* Main.html */; };
+		331A4E552C1BA0A6008B4E0B /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 331A4E0F2C1BA0A4008B4E0B /* Main.html */; };
+		331A4E582C1BA0A6008B4E0B /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 331A4E122C1BA0A4008B4E0B /* Style.css */; };
+		331A4E592C1BA0A6008B4E0B /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 331A4E122C1BA0A4008B4E0B /* Style.css */; };
+		331A4E5A2C1BA0A6008B4E0B /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 331A4E132C1BA0A4008B4E0B /* Script.js */; };
+		331A4E5B2C1BA0A6008B4E0B /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 331A4E132C1BA0A4008B4E0B /* Script.js */; };
+		331A4E5C2C1BA0A6008B4E0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A4E142C1BA0A4008B4E0B /* ViewController.swift */; };
+		331A4E5D2C1BA0A6008B4E0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A4E142C1BA0A4008B4E0B /* ViewController.swift */; };
+		331A4E5E2C1BA0A6008B4E0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 331A4E152C1BA0A6008B4E0B /* Assets.xcassets */; };
+		331A4E5F2C1BA0A6008B4E0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 331A4E152C1BA0A6008B4E0B /* Assets.xcassets */; };
+		331A4E602C1BA0A6008B4E0B /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A4E172C1BA0A6008B4E0B /* SafariWebExtensionHandler.swift */; };
+		331A4E612C1BA0A6008B4E0B /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A4E172C1BA0A6008B4E0B /* SafariWebExtensionHandler.swift */; };
+		331A4E952C1BA401008B4E0B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 331A4E942C1BA401008B4E0B /* Icon.png */; };
+		331A4E962C1BA401008B4E0B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 331A4E942C1BA401008B4E0B /* Icon.png */; };
+		333AE2EB2CE35134003F0FA7 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 333AE2E22CE35134003F0FA7 /* manifest.json */; };
+		333AE2EE2CE35134003F0FA7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 333AE2E12CE35134003F0FA7 /* icon.png */; };
+		333AE2F22CE35134003F0FA7 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 333AE2D22CE35134003F0FA7 /* content.js */; };
+		333AE2FB2CE35134003F0FA7 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 333AE2E22CE35134003F0FA7 /* manifest.json */; };
+		333AE2FE2CE35134003F0FA7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 333AE2E12CE35134003F0FA7 /* icon.png */; };
+		333AE3022CE35134003F0FA7 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 333AE2D22CE35134003F0FA7 /* content.js */; };
+		333AE30B2CE3513C003F0FA7 /* third-party in Resources */ = {isa = PBXBuildFile; fileRef = 333AE30A2CE35138003F0FA7 /* third-party */; };
+		333AE30C2CE3513C003F0FA7 /* third-party in Resources */ = {isa = PBXBuildFile; fileRef = 333AE30A2CE35138003F0FA7 /* third-party */; };
+		333AE30E2CE35142003F0FA7 /* dist in Resources */ = {isa = PBXBuildFile; fileRef = 333AE30D2CE3513E003F0FA7 /* dist */; };
+		333AE30F2CE35142003F0FA7 /* dist in Resources */ = {isa = PBXBuildFile; fileRef = 333AE30D2CE3513E003F0FA7 /* dist */; };
+		33457EF12D516A3D00212C64 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33457EF02D516A3D00212C64 /* SafariExtensionHandler.swift */; };
+		33457EF22D516A3D00212C64 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33457EF02D516A3D00212C64 /* SafariExtensionHandler.swift */; };
+		33C2890F2D5088850028F358 /* modifyResponseHeaders.json in Resources */ = {isa = PBXBuildFile; fileRef = 33C2890E2D5088850028F358 /* modifyResponseHeaders.json */; };
+		33C289102D5088850028F358 /* modifyResponseHeaders.json in Resources */ = {isa = PBXBuildFile; fileRef = 33C2890E2D5088850028F358 /* modifyResponseHeaders.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		331A4E452C1BA0A6008B4E0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 331A4E092C1BA0A3008B4E0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 331A4E422C1BA0A6008B4E0B;
+			remoteInfo = "Vencord Web Extension (iOS)";
+		};
+		331A4E4F2C1BA0A6008B4E0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 331A4E092C1BA0A3008B4E0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 331A4E4C2C1BA0A6008B4E0B;
+			remoteInfo = "Vencord Web Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		331A4E772C1BA0A6008B4E0B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				331A4E442C1BA0A6008B4E0B /* Vencord Web Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		331A4E7E2C1BA0A6008B4E0B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				331A4E4E2C1BA0A6008B4E0B /* Vencord Web Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		331A4E102C1BA0A4008B4E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		331A4E122C1BA0A4008B4E0B /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		331A4E132C1BA0A4008B4E0B /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		331A4E142C1BA0A4008B4E0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		331A4E152C1BA0A6008B4E0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		331A4E172C1BA0A6008B4E0B /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		331A4E252C1BA0A6008B4E0B /* Vencord Web.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vencord Web.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		331A4E282C1BA0A6008B4E0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		331A4E2A2C1BA0A6008B4E0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		331A4E2D2C1BA0A6008B4E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		331A4E302C1BA0A6008B4E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		331A4E322C1BA0A6008B4E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		331A4E372C1BA0A6008B4E0B /* Vencord Web.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vencord Web.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		331A4E392C1BA0A6008B4E0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		331A4E3C2C1BA0A6008B4E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		331A4E3E2C1BA0A6008B4E0B /* Vencord Web.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Vencord Web.entitlements"; sourceTree = "<group>"; };
+		331A4E432C1BA0A6008B4E0B /* Vencord Web Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Vencord Web Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		331A4E482C1BA0A6008B4E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		331A4E4D2C1BA0A6008B4E0B /* Vencord Web Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Vencord Web Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		331A4E522C1BA0A6008B4E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		331A4E532C1BA0A6008B4E0B /* Vencord Web.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Vencord Web.entitlements"; sourceTree = "<group>"; };
+		331A4E942C1BA401008B4E0B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		333AE2D22CE35134003F0FA7 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = "../Vencord/dist/chromium-unpacked/content.js"; sourceTree = SOURCE_ROOT; };
+		333AE2E12CE35134003F0FA7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "../Vencord/dist/chromium-unpacked/icon.png"; sourceTree = SOURCE_ROOT; };
+		333AE2E22CE35134003F0FA7 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../Vencord/dist/chromium-unpacked/manifest.json"; sourceTree = SOURCE_ROOT; };
+		333AE30A2CE35138003F0FA7 /* third-party */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "third-party"; path = "../Vencord/dist/chromium-unpacked/third-party"; sourceTree = SOURCE_ROOT; };
+		333AE30D2CE3513E003F0FA7 /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dist; path = "../Vencord/dist/chromium-unpacked/dist"; sourceTree = SOURCE_ROOT; };
+		33457EF02D516A3D00212C64 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		33C2890E2D5088850028F358 /* modifyResponseHeaders.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = modifyResponseHeaders.json; path = "../Vencord/dist/chromium-unpacked/modifyResponseHeaders.json"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		331A4E222C1BA0A6008B4E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		331A4E342C1BA0A6008B4E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		331A4E402C1BA0A6008B4E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		331A4E4A2C1BA0A6008B4E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		331A4E082C1BA0A3008B4E0B = {
+			isa = PBXGroup;
+			children = (
+				331A4E0D2C1BA0A4008B4E0B /* Shared (App) */,
+				331A4E162C1BA0A6008B4E0B /* Shared (Extension) */,
+				331A4E272C1BA0A6008B4E0B /* iOS (App) */,
+				331A4E382C1BA0A6008B4E0B /* macOS (App) */,
+				331A4E472C1BA0A6008B4E0B /* iOS (Extension) */,
+				331A4E512C1BA0A6008B4E0B /* macOS (Extension) */,
+				331A4E262C1BA0A6008B4E0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		331A4E0D2C1BA0A4008B4E0B /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				33457EF02D516A3D00212C64 /* SafariExtensionHandler.swift */,
+				331A4E142C1BA0A4008B4E0B /* ViewController.swift */,
+				331A4E152C1BA0A6008B4E0B /* Assets.xcassets */,
+				331A4E0E2C1BA0A4008B4E0B /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		331A4E0E2C1BA0A4008B4E0B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				331A4E0F2C1BA0A4008B4E0B /* Main.html */,
+				331A4E942C1BA401008B4E0B /* Icon.png */,
+				331A4E122C1BA0A4008B4E0B /* Style.css */,
+				331A4E132C1BA0A4008B4E0B /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		331A4E162C1BA0A6008B4E0B /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				333AE2812CE34732003F0FA7 /* Resources */,
+				331A4E172C1BA0A6008B4E0B /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		331A4E262C1BA0A6008B4E0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				331A4E252C1BA0A6008B4E0B /* Vencord Web.app */,
+				331A4E372C1BA0A6008B4E0B /* Vencord Web.app */,
+				331A4E432C1BA0A6008B4E0B /* Vencord Web Extension.appex */,
+				331A4E4D2C1BA0A6008B4E0B /* Vencord Web Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		331A4E272C1BA0A6008B4E0B /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				331A4E282C1BA0A6008B4E0B /* AppDelegate.swift */,
+				331A4E2A2C1BA0A6008B4E0B /* SceneDelegate.swift */,
+				331A4E2C2C1BA0A6008B4E0B /* LaunchScreen.storyboard */,
+				331A4E2F2C1BA0A6008B4E0B /* Main.storyboard */,
+				331A4E322C1BA0A6008B4E0B /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		331A4E382C1BA0A6008B4E0B /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				331A4E392C1BA0A6008B4E0B /* AppDelegate.swift */,
+				331A4E3B2C1BA0A6008B4E0B /* Main.storyboard */,
+				331A4E3E2C1BA0A6008B4E0B /* Vencord Web.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		331A4E472C1BA0A6008B4E0B /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				331A4E482C1BA0A6008B4E0B /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		331A4E512C1BA0A6008B4E0B /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				331A4E522C1BA0A6008B4E0B /* Info.plist */,
+				331A4E532C1BA0A6008B4E0B /* Vencord Web.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		333AE2812CE34732003F0FA7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				33C2890E2D5088850028F358 /* modifyResponseHeaders.json */,
+				333AE2D22CE35134003F0FA7 /* content.js */,
+				333AE30D2CE3513E003F0FA7 /* dist */,
+				333AE2E12CE35134003F0FA7 /* icon.png */,
+				333AE2E22CE35134003F0FA7 /* manifest.json */,
+				333AE30A2CE35138003F0FA7 /* third-party */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		331A4E242C1BA0A6008B4E0B /* Vencord Web (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 331A4E782C1BA0A6008B4E0B /* Build configuration list for PBXNativeTarget "Vencord Web (iOS)" */;
+			buildPhases = (
+				331A4E212C1BA0A6008B4E0B /* Sources */,
+				331A4E222C1BA0A6008B4E0B /* Frameworks */,
+				331A4E232C1BA0A6008B4E0B /* Resources */,
+				331A4E772C1BA0A6008B4E0B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				331A4E462C1BA0A6008B4E0B /* PBXTargetDependency */,
+			);
+			name = "Vencord Web (iOS)";
+			productName = "Vencord Web (iOS)";
+			productReference = 331A4E252C1BA0A6008B4E0B /* Vencord Web.app */;
+			productType = "com.apple.product-type.application";
+		};
+		331A4E362C1BA0A6008B4E0B /* Vencord Web (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 331A4E7F2C1BA0A6008B4E0B /* Build configuration list for PBXNativeTarget "Vencord Web (macOS)" */;
+			buildPhases = (
+				331A4E332C1BA0A6008B4E0B /* Sources */,
+				331A4E342C1BA0A6008B4E0B /* Frameworks */,
+				331A4E352C1BA0A6008B4E0B /* Resources */,
+				331A4E7E2C1BA0A6008B4E0B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				331A4E502C1BA0A6008B4E0B /* PBXTargetDependency */,
+			);
+			name = "Vencord Web (macOS)";
+			productName = "Vencord Web (macOS)";
+			productReference = 331A4E372C1BA0A6008B4E0B /* Vencord Web.app */;
+			productType = "com.apple.product-type.application";
+		};
+		331A4E422C1BA0A6008B4E0B /* Vencord Web Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 331A4E742C1BA0A6008B4E0B /* Build configuration list for PBXNativeTarget "Vencord Web Extension (iOS)" */;
+			buildPhases = (
+				331A4E3F2C1BA0A6008B4E0B /* Sources */,
+				331A4E402C1BA0A6008B4E0B /* Frameworks */,
+				331A4E412C1BA0A6008B4E0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vencord Web Extension (iOS)";
+			productName = "Vencord Web Extension (iOS)";
+			productReference = 331A4E432C1BA0A6008B4E0B /* Vencord Web Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		331A4E4C2C1BA0A6008B4E0B /* Vencord Web Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 331A4E7B2C1BA0A6008B4E0B /* Build configuration list for PBXNativeTarget "Vencord Web Extension (macOS)" */;
+			buildPhases = (
+				331A4E492C1BA0A6008B4E0B /* Sources */,
+				331A4E4A2C1BA0A6008B4E0B /* Frameworks */,
+				331A4E4B2C1BA0A6008B4E0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vencord Web Extension (macOS)";
+			productName = "Vencord Web Extension (macOS)";
+			productReference = 331A4E4D2C1BA0A6008B4E0B /* Vencord Web Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		331A4E092C1BA0A3008B4E0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					331A4E242C1BA0A6008B4E0B = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					331A4E362C1BA0A6008B4E0B = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					331A4E422C1BA0A6008B4E0B = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					331A4E4C2C1BA0A6008B4E0B = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 331A4E0C2C1BA0A3008B4E0B /* Build configuration list for PBXProject "Vencord Web" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 331A4E082C1BA0A3008B4E0B;
+			productRefGroup = 331A4E262C1BA0A6008B4E0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				331A4E242C1BA0A6008B4E0B /* Vencord Web (iOS) */,
+				331A4E362C1BA0A6008B4E0B /* Vencord Web (macOS) */,
+				331A4E422C1BA0A6008B4E0B /* Vencord Web Extension (iOS) */,
+				331A4E4C2C1BA0A6008B4E0B /* Vencord Web Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		331A4E232C1BA0A6008B4E0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				331A4E2E2C1BA0A6008B4E0B /* LaunchScreen.storyboard in Resources */,
+				331A4E542C1BA0A6008B4E0B /* Main.html in Resources */,
+				331A4E5A2C1BA0A6008B4E0B /* Script.js in Resources */,
+				331A4E5E2C1BA0A6008B4E0B /* Assets.xcassets in Resources */,
+				331A4E312C1BA0A6008B4E0B /* Main.storyboard in Resources */,
+				331A4E952C1BA401008B4E0B /* Icon.png in Resources */,
+				331A4E582C1BA0A6008B4E0B /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		331A4E352C1BA0A6008B4E0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				331A4E962C1BA401008B4E0B /* Icon.png in Resources */,
+				331A4E592C1BA0A6008B4E0B /* Style.css in Resources */,
+				331A4E3D2C1BA0A6008B4E0B /* Main.storyboard in Resources */,
+				331A4E5B2C1BA0A6008B4E0B /* Script.js in Resources */,
+				331A4E5F2C1BA0A6008B4E0B /* Assets.xcassets in Resources */,
+				331A4E552C1BA0A6008B4E0B /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		331A4E412C1BA0A6008B4E0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333AE30E2CE35142003F0FA7 /* dist in Resources */,
+				333AE30B2CE3513C003F0FA7 /* third-party in Resources */,
+				333AE2EB2CE35134003F0FA7 /* manifest.json in Resources */,
+				333AE2EE2CE35134003F0FA7 /* icon.png in Resources */,
+				333AE2F22CE35134003F0FA7 /* content.js in Resources */,
+				33C2890F2D5088850028F358 /* modifyResponseHeaders.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		331A4E4B2C1BA0A6008B4E0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333AE30F2CE35142003F0FA7 /* dist in Resources */,
+				333AE30C2CE3513C003F0FA7 /* third-party in Resources */,
+				333AE2FB2CE35134003F0FA7 /* manifest.json in Resources */,
+				333AE2FE2CE35134003F0FA7 /* icon.png in Resources */,
+				333AE3022CE35134003F0FA7 /* content.js in Resources */,
+				33C289102D5088850028F358 /* modifyResponseHeaders.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		331A4E212C1BA0A6008B4E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33457EF22D516A3D00212C64 /* SafariExtensionHandler.swift in Sources */,
+				331A4E5C2C1BA0A6008B4E0B /* ViewController.swift in Sources */,
+				331A4E292C1BA0A6008B4E0B /* AppDelegate.swift in Sources */,
+				331A4E2B2C1BA0A6008B4E0B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		331A4E332C1BA0A6008B4E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				331A4E5D2C1BA0A6008B4E0B /* ViewController.swift in Sources */,
+				331A4E3A2C1BA0A6008B4E0B /* AppDelegate.swift in Sources */,
+				33457EF12D516A3D00212C64 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		331A4E3F2C1BA0A6008B4E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				331A4E602C1BA0A6008B4E0B /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		331A4E492C1BA0A6008B4E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				331A4E612C1BA0A6008B4E0B /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		331A4E462C1BA0A6008B4E0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 331A4E422C1BA0A6008B4E0B /* Vencord Web Extension (iOS) */;
+			targetProxy = 331A4E452C1BA0A6008B4E0B /* PBXContainerItemProxy */;
+		};
+		331A4E502C1BA0A6008B4E0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 331A4E4C2C1BA0A6008B4E0B /* Vencord Web Extension (macOS) */;
+			targetProxy = 331A4E4F2C1BA0A6008B4E0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		331A4E0F2C1BA0A4008B4E0B /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				331A4E102C1BA0A4008B4E0B /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		331A4E2C2C1BA0A6008B4E0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				331A4E2D2C1BA0A6008B4E0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		331A4E2F2C1BA0A6008B4E0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				331A4E302C1BA0A6008B4E0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		331A4E3B2C1BA0A6008B4E0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				331A4E3C2C1BA0A6008B4E0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		331A4E722C1BA0A6008B4E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		331A4E732C1BA0A6008B4E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		331A4E752C1BA0A6008B4E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DLSL362JHJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Vencord Web Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kh.crysalis.Vencord-Web.Extension";
+				PRODUCT_NAME = "Vencord Web Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		331A4E762C1BA0A6008B4E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DLSL362JHJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Vencord Web Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kh.crysalis.Vencord-Web.Extension";
+				PRODUCT_NAME = "Vencord Web Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		331A4E792C1BA0A6008B4E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DLSL362JHJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Vencord Web";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kh.crysalis.Vencord-Web";
+				PRODUCT_NAME = "Vencord Web";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		331A4E7A2C1BA0A6008B4E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DLSL362JHJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Vencord Web";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kh.crysalis.Vencord-Web";
+				PRODUCT_NAME = "Vencord Web";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		331A4E7C2C1BA0A6008B4E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Vencord Web.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DLSL362JHJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Vencord Web Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kh.crysalis.Vencord-Web.Extension";
+				PRODUCT_NAME = "Vencord Web Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		331A4E7D2C1BA0A6008B4E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Vencord Web.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DLSL362JHJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Vencord Web Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kh.crysalis.Vencord-Web.Extension";
+				PRODUCT_NAME = "Vencord Web Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		331A4E802C1BA0A6008B4E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Vencord Web.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DLSL362JHJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Vencord Web";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kh.crysalis.Vencord-Web";
+				PRODUCT_NAME = "Vencord Web";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		331A4E812C1BA0A6008B4E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Vencord Web.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DLSL362JHJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Vencord Web";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kh.crysalis.Vencord-Web";
+				PRODUCT_NAME = "Vencord Web";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		331A4E0C2C1BA0A3008B4E0B /* Build configuration list for PBXProject "Vencord Web" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				331A4E722C1BA0A6008B4E0B /* Debug */,
+				331A4E732C1BA0A6008B4E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		331A4E742C1BA0A6008B4E0B /* Build configuration list for PBXNativeTarget "Vencord Web Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				331A4E752C1BA0A6008B4E0B /* Debug */,
+				331A4E762C1BA0A6008B4E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		331A4E782C1BA0A6008B4E0B /* Build configuration list for PBXNativeTarget "Vencord Web (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				331A4E792C1BA0A6008B4E0B /* Debug */,
+				331A4E7A2C1BA0A6008B4E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		331A4E7B2C1BA0A6008B4E0B /* Build configuration list for PBXNativeTarget "Vencord Web Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				331A4E7C2C1BA0A6008B4E0B /* Debug */,
+				331A4E7D2C1BA0A6008B4E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		331A4E7F2C1BA0A6008B4E0B /* Build configuration list for PBXNativeTarget "Vencord Web (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				331A4E802C1BA0A6008B4E0B /* Debug */,
+				331A4E812C1BA0A6008B4E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 331A4E092C1BA0A3008B4E0B /* Project object */;
+}
