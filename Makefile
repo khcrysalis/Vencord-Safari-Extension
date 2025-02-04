@@ -25,7 +25,7 @@ package:
 		-project "$(NAME).xcodeproj" \
 		-scheme $(SCHEME) \
 		-configuration $(CONFIGURATION) \
-		-arch arm64 -sdk $(PLATFORM) \
+		-sdk $(PLATFORM) \
 		-derivedDataPath $(APP_TMP) \
 		CODE_SIGNING_ALLOWED=NO \
 		DSTROOT=$(APP_TMP)/install \

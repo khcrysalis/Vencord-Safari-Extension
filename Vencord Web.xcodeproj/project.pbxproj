@@ -154,7 +154,6 @@
 		331A4E082C1BA0A3008B4E0B = {
 			isa = PBXGroup;
 			children = (
-				331E36682D51B9A600FCC1B8 /* Makefile */,
 				331A4E0D2C1BA0A4008B4E0B /* Shared (App) */,
 				331A4E162C1BA0A6008B4E0B /* Shared (Extension) */,
 				331A4E272C1BA0A6008B4E0B /* iOS (App) */,
@@ -162,6 +161,7 @@
 				331A4E472C1BA0A6008B4E0B /* iOS (Extension) */,
 				331A4E512C1BA0A6008B4E0B /* macOS (Extension) */,
 				331A4E262C1BA0A6008B4E0B /* Products */,
+				331E36682D51B9A600FCC1B8 /* Makefile */,
 			);
 			sourceTree = "<group>";
 		};
@@ -285,10 +285,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 331A4E7F2C1BA0A6008B4E0B /* Build configuration list for PBXNativeTarget "Vencord Web (macOS)" */;
 			buildPhases = (
+				331E366A2D51D4D600FCC1B8 /* Build Vencord */,
 				331A4E332C1BA0A6008B4E0B /* Sources */,
 				331A4E342C1BA0A6008B4E0B /* Frameworks */,
 				331A4E352C1BA0A6008B4E0B /* Resources */,
 				331A4E7E2C1BA0A6008B4E0B /* Embed Foundation Extensions */,
+				331E36692D51D1A700FCC1B8 /* Increment Version */,
 			);
 			buildRules = (
 			);
@@ -438,6 +440,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		331E36692D51D1A700FCC1B8 /* Increment Version */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Increment Version";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\nVERSION=$(sed -n 's/.*\"version\": \"\\([^\"]*\\)\".*/\\1/p' ../../package.json)\n/usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString $VERSION\" \"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\necho \"It's version $VERSION\"\n";
+		};
+		331E366A2D51D4D600FCC1B8 /* Build Vencord */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Vencord";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncd ../..\n\nexport PATH=\"/opt/homebrew/bin:$PATH\"\n\npnpm i\n\npnpm buildWebStandalone\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		331A4E212C1BA0A6008B4E0B /* Sources */ = {
@@ -658,7 +699,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -689,7 +730,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -727,7 +768,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -765,7 +806,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -800,7 +841,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -832,7 +873,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -857,6 +898,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DLSL362JHJ;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Vencord Web";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -866,7 +908,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -892,6 +934,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DLSL362JHJ;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Vencord Web";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -901,7 +944,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
