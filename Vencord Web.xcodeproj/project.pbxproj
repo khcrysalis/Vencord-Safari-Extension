@@ -110,6 +110,7 @@
 		331E35BA2D51B69500FCC1B8 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "/Users/samara/Documents/Repositories/Vencord/dist/chromium-unpacked/icon.png"; sourceTree = "<absolute>"; };
 		331E35BB2D51B69500FCC1B8 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "/Users/samara/Documents/Repositories/Vencord/dist/chromium-unpacked/manifest.json"; sourceTree = "<absolute>"; };
 		331E35BC2D51B69500FCC1B8 /* modifyResponseHeaders.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = modifyResponseHeaders.json; path = "/Users/samara/Documents/Repositories/Vencord/dist/chromium-unpacked/modifyResponseHeaders.json"; sourceTree = "<absolute>"; };
+		331E36682D51B9A600FCC1B8 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		33457EF02D516A3D00212C64 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -153,6 +154,7 @@
 		331A4E082C1BA0A3008B4E0B = {
 			isa = PBXGroup;
 			children = (
+				331E36682D51B9A600FCC1B8 /* Makefile */,
 				331A4E0D2C1BA0A4008B4E0B /* Shared (App) */,
 				331A4E162C1BA0A6008B4E0B /* Shared (Extension) */,
 				331A4E272C1BA0A6008B4E0B /* iOS (App) */,
