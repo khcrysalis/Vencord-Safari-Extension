@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -29,16 +29,20 @@
 		331A4E612C1BA0A6008B4E0B /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A4E172C1BA0A6008B4E0B /* SafariWebExtensionHandler.swift */; };
 		331A4E952C1BA401008B4E0B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 331A4E942C1BA401008B4E0B /* Icon.png */; };
 		331A4E962C1BA401008B4E0B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 331A4E942C1BA401008B4E0B /* Icon.png */; };
-		331E35C62D51B69500FCC1B8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 331E35BB2D51B69500FCC1B8 /* manifest.json */; };
-		331E35CA2D51B69500FCC1B8 /* modifyResponseHeaders.json in Resources */ = {isa = PBXBuildFile; fileRef = 331E35BC2D51B69500FCC1B8 /* modifyResponseHeaders.json */; };
-		331E35CC2D51B69500FCC1B8 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 331E35AC2D51B69500FCC1B8 /* content.js */; };
-		331E35D22D51B69500FCC1B8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 331E35BA2D51B69500FCC1B8 /* icon.png */; };
-		331E35D52D51B69500FCC1B8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 331E35BB2D51B69500FCC1B8 /* manifest.json */; };
-		331E35D92D51B69500FCC1B8 /* modifyResponseHeaders.json in Resources */ = {isa = PBXBuildFile; fileRef = 331E35BC2D51B69500FCC1B8 /* modifyResponseHeaders.json */; };
-		331E35DB2D51B69500FCC1B8 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 331E35AC2D51B69500FCC1B8 /* content.js */; };
-		331E35E12D51B69500FCC1B8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 331E35BA2D51B69500FCC1B8 /* icon.png */; };
 		33457EF12D516A3D00212C64 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33457EF02D516A3D00212C64 /* SafariExtensionHandler.swift */; };
 		33457EF22D516A3D00212C64 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33457EF02D516A3D00212C64 /* SafariExtensionHandler.swift */; };
+		33C218382D557B6300083F1C /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 33C2181D2D557B6300083F1C /* content.js */; };
+		33C2183D2D557B6300083F1C /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 33C2182C2D557B6300083F1C /* manifest.json */; };
+		33C218422D557B6300083F1C /* modifyResponseHeaders.json in Resources */ = {isa = PBXBuildFile; fileRef = 33C2182D2D557B6300083F1C /* modifyResponseHeaders.json */; };
+		33C218432D557B6300083F1C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C2182B2D557B6300083F1C /* icon.png */; };
+		33C218472D557B6300083F1C /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 33C2181D2D557B6300083F1C /* content.js */; };
+		33C2184C2D557B6300083F1C /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 33C2182C2D557B6300083F1C /* manifest.json */; };
+		33C218512D557B6300083F1C /* modifyResponseHeaders.json in Resources */ = {isa = PBXBuildFile; fileRef = 33C2182D2D557B6300083F1C /* modifyResponseHeaders.json */; };
+		33C218522D557B6300083F1C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C2182B2D557B6300083F1C /* icon.png */; };
+		33C218632D557B8C00083F1C /* third-party in Resources */ = {isa = PBXBuildFile; fileRef = 33C218622D557B7F00083F1C /* third-party */; };
+		33C218642D557B8C00083F1C /* third-party in Resources */ = {isa = PBXBuildFile; fileRef = 33C218622D557B7F00083F1C /* third-party */; };
+		33C218652D557B9000083F1C /* dist in Resources */ = {isa = PBXBuildFile; fileRef = 33C218612D557B7200083F1C /* dist */; };
+		33C218662D557B9000083F1C /* dist in Resources */ = {isa = PBXBuildFile; fileRef = 33C218612D557B7200083F1C /* dist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,18 +110,15 @@
 		331A4E522C1BA0A6008B4E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		331A4E532C1BA0A6008B4E0B /* Vencord Web.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Vencord Web.entitlements"; sourceTree = "<group>"; };
 		331A4E942C1BA401008B4E0B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		331E35AC2D51B69500FCC1B8 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = "/Users/samara/Documents/Repositories/Vencord/dist/chromium-unpacked/content.js"; sourceTree = "<absolute>"; };
-		331E35BA2D51B69500FCC1B8 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "/Users/samara/Documents/Repositories/Vencord/dist/chromium-unpacked/icon.png"; sourceTree = "<absolute>"; };
-		331E35BB2D51B69500FCC1B8 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "/Users/samara/Documents/Repositories/Vencord/dist/chromium-unpacked/manifest.json"; sourceTree = "<absolute>"; };
-		331E35BC2D51B69500FCC1B8 /* modifyResponseHeaders.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = modifyResponseHeaders.json; path = "/Users/samara/Documents/Repositories/Vencord/dist/chromium-unpacked/modifyResponseHeaders.json"; sourceTree = "<absolute>"; };
 		331E36682D51B9A600FCC1B8 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		33457EF02D516A3D00212C64 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		33C2181D2D557B6300083F1C /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = "/Users/samara/Documents/Repositories/Vencord/dist/chromium-unpacked/content.js"; sourceTree = "<absolute>"; };
+		33C2182B2D557B6300083F1C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "/Users/samara/Documents/Repositories/Vencord/dist/chromium-unpacked/icon.png"; sourceTree = "<absolute>"; };
+		33C2182C2D557B6300083F1C /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "/Users/samara/Documents/Repositories/Vencord/dist/chromium-unpacked/manifest.json"; sourceTree = "<absolute>"; };
+		33C2182D2D557B6300083F1C /* modifyResponseHeaders.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = modifyResponseHeaders.json; path = "/Users/samara/Documents/Repositories/Vencord/dist/chromium-unpacked/modifyResponseHeaders.json"; sourceTree = "<absolute>"; };
+		33C218612D557B7200083F1C /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dist; path = "/Users/samara/Documents/Repositories/Vencord/dist/chromium-unpacked/dist"; sourceTree = "<absolute>"; };
+		33C218622D557B7F00083F1C /* third-party */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "third-party"; path = "/Users/samara/Documents/Repositories/Vencord/dist/chromium-unpacked/third-party"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		331E35B92D51B69500FCC1B8 /* dist */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); name = dist; path = "/Users/samara/Documents/Repositories/Vencord/dist/chromium-unpacked/dist"; sourceTree = "<absolute>"; };
-		331E35C32D51B69500FCC1B8 /* third-party */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); name = "third-party"; path = "/Users/samara/Documents/Repositories/Vencord/dist/chromium-unpacked/third-party"; sourceTree = "<absolute>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		331A4E222C1BA0A6008B4E0B /* Frameworks */ = {
@@ -249,12 +250,12 @@
 		333AE2812CE34732003F0FA7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				331E35AC2D51B69500FCC1B8 /* content.js */,
-				331E35B92D51B69500FCC1B8 /* dist */,
-				331E35BA2D51B69500FCC1B8 /* icon.png */,
-				331E35BB2D51B69500FCC1B8 /* manifest.json */,
-				331E35BC2D51B69500FCC1B8 /* modifyResponseHeaders.json */,
-				331E35C32D51B69500FCC1B8 /* third-party */,
+				33C2181D2D557B6300083F1C /* content.js */,
+				33C218612D557B7200083F1C /* dist */,
+				33C2182B2D557B6300083F1C /* icon.png */,
+				33C2182C2D557B6300083F1C /* manifest.json */,
+				33C2182D2D557B6300083F1C /* modifyResponseHeaders.json */,
+				33C218622D557B7F00083F1C /* third-party */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -290,7 +291,7 @@
 				331A4E342C1BA0A6008B4E0B /* Frameworks */,
 				331A4E352C1BA0A6008B4E0B /* Resources */,
 				331A4E7E2C1BA0A6008B4E0B /* Embed Foundation Extensions */,
-				331E36692D51D1A700FCC1B8 /* Increment Version */,
+				331E36692D51D1A700FCC1B8 /* Increment Vencord Version */,
 			);
 			buildRules = (
 			);
@@ -314,10 +315,6 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				331E35B92D51B69500FCC1B8 /* dist */,
-				331E35C32D51B69500FCC1B8 /* third-party */,
-			);
 			name = "Vencord Web Extension (iOS)";
 			productName = "Vencord Web Extension (iOS)";
 			productReference = 331A4E432C1BA0A6008B4E0B /* Vencord Web Extension.appex */;
@@ -334,10 +331,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				331E35B92D51B69500FCC1B8 /* dist */,
-				331E35C32D51B69500FCC1B8 /* third-party */,
 			);
 			name = "Vencord Web Extension (macOS)";
 			productName = "Vencord Web Extension (macOS)";
@@ -421,10 +414,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				331E35D52D51B69500FCC1B8 /* manifest.json in Resources */,
-				331E35D92D51B69500FCC1B8 /* modifyResponseHeaders.json in Resources */,
-				331E35DB2D51B69500FCC1B8 /* content.js in Resources */,
-				331E35E12D51B69500FCC1B8 /* icon.png in Resources */,
+				33C218652D557B9000083F1C /* dist in Resources */,
+				33C218472D557B6300083F1C /* content.js in Resources */,
+				33C218632D557B8C00083F1C /* third-party in Resources */,
+				33C2184C2D557B6300083F1C /* manifest.json in Resources */,
+				33C218512D557B6300083F1C /* modifyResponseHeaders.json in Resources */,
+				33C218522D557B6300083F1C /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,17 +427,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				331E35C62D51B69500FCC1B8 /* manifest.json in Resources */,
-				331E35CA2D51B69500FCC1B8 /* modifyResponseHeaders.json in Resources */,
-				331E35CC2D51B69500FCC1B8 /* content.js in Resources */,
-				331E35D22D51B69500FCC1B8 /* icon.png in Resources */,
+				33C218662D557B9000083F1C /* dist in Resources */,
+				33C218382D557B6300083F1C /* content.js in Resources */,
+				33C218642D557B8C00083F1C /* third-party in Resources */,
+				33C2183D2D557B6300083F1C /* manifest.json in Resources */,
+				33C218422D557B6300083F1C /* modifyResponseHeaders.json in Resources */,
+				33C218432D557B6300083F1C /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		331E36692D51D1A700FCC1B8 /* Increment Version */ = {
+		331E36692D51D1A700FCC1B8 /* Increment Vencord Version */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -451,7 +448,7 @@
 			);
 			inputPaths = (
 			);
-			name = "Increment Version";
+			name = "Increment Vencord Version";
 			outputFileListPaths = (
 			);
 			outputPaths = (

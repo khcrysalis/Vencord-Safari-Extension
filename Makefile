@@ -39,7 +39,8 @@ ifeq ($(PLATFORM),macosx)
 else
 	@mkdir packages/Payload
 	@cp -a $(APP_DIR) packages/Payload
-	@zip -r9 packages/$(NAME_DIR).ipa packages/Payload
+	@cd packages
+	@zip -r9 $(NAME_DIR).ipa Payload
 endif
 	
 clean:
